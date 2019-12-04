@@ -1,0 +1,3025 @@
+/**************** common css start ****************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Playfair+Display:400,400i,900|Roboto:300,400,500");
+/* line 3, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 19px;
+}
+#logo ,a
+{
+  font-weight:bold;
+  color:black;
+}
+/* line 9, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+section {
+  overflow: hidden !important;
+}
+
+/* line 12, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.message_submit_form:focus {
+  outline: none;
+}
+
+/* line 15, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+input:hover, input:focus {
+  outline: none !important;
+}
+
+/* line 18, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.gray_bg {
+  background-color: #fff7ef;
+}
+
+/* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.section_padding {
+  padding: 130px 0px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_padding {
+    padding: 80px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+/* line 38, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;color:black;font-weight:bold;
+}
+
+/* line 41, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+a:hover, a :hover {
+  color: #ff8b23;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 48, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #2a2a2a;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* line 52, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+p {
+  color: rgb(5, 5, 5);
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.59;
+  font-size: 17px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+/* line 61, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+h2 {
+  font-size: 36px;
+  line-height: 28px;
+  color: #2a2a2a;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  /* line 61, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  h2 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 576px) {
+  /* line 61, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+ .p {
+   margin-top:220px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 61, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+/* line 77, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+h3 {
+  font-size: 24px;
+  line-height: 25px;
+}
+
+@media (max-width: 576px) {
+  /* line 77, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  h3 {
+    font-size: 20px;
+  }
+}
+
+/* line 87, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.blog_right_sidebar .widget_title {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-style: inherit;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+/* line 94, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 99, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 102, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+a:focus, .button:focus, button:focus, .btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* line 109, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.section_tittle {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 576px) {
+  /* line 109, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_tittle {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 109, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_tittle {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 109, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_tittle {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* line 124, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.section_tittle h2 {
+  font-size: 36px;
+  color: #2a2a2a;
+  line-height: 46px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  /* line 124, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_tittle h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 124, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_tittle h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 124, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .section_tittle h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* line 147, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.section_tittle h4 {
+  color: #ff8b23;
+  font-size: 20px;
+  line-height: 23px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+/* line 156, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.about_text h4 {
+  color: #ff8b23;
+  font-size: 20px;
+  line-height: 23px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* line 163, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 168, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.mb_110 {
+  margin-bottom: 110px;
+}
+
+@media (max-width: 576px) {
+  /* line 168, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mb_110 {
+    margin-bottom: 220px;
+  }
+}
+
+/* line 175, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.mt_130 {
+  margin-top: 130px;
+}
+
+@media (max-width: 576px) {
+  /* line 175, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mt_130 {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 175, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mt_130 {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 175, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mt_130 {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 175, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mt_130 {
+    margin-top: 70px;
+  }
+}
+
+/* line 190, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.mb_130 {
+  margin-bottom: 130px;
+}
+
+@media (max-width: 576px) {
+  /* line 190, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mb_130 {
+    margin-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 190, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mb_130 {
+    margin-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 190, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mb_130 {
+    margin-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 190, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .mb_130 {
+    margin-bottom: 70px;
+  }
+}
+
+/* line 205, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.padding_less_40 {
+  margin-bottom: -50px;
+}
+
+/* line 208, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.z_index {
+  z-index: 9 !important;
+  position: relative;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* line 213, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 220, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/* line 225, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+.blog_item_date {
+  background-color: #ff8b23 !important;
+}
+
+/**************** common css end ****************/
+/* Main Button Area css
+============================================================================================ */
+/* line 3, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.submit_btn {
+  width: auto;
+  display: inline-block;
+  background: #fff;
+  padding: 0px 50px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 50px;
+  border-radius: 5px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  border: 1px solid #fdcb9e;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 19, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.submit_btn:hover {
+  background: transparent;
+}
+
+/* line 24, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.btn_1 {
+  display: inline-block;
+  padding: 13px 35px;
+  border: 2px solid transparent;
+  background-color: #ff8b23;
+  font-size: 12px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+/* line 34, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.btn_1:hover {
+  border: 2px solid #ff8b23;
+  background-color: #fff;
+  color: #ff8b23;
+}
+
+/* line 40, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.btn_2 {
+  display: inline-block;
+  padding: 13px 47px;
+  background-color: #ff8b23;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 4px solid #fdcb9e;
+  margin-top: 40px;
+}
+
+/* line 50, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.btn_2:hover {
+  background-color: #f5790b;
+  color: #fff;
+}
+
+/*=================== custom button rule start ====================*/
+/* line 57, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button {
+  display: inline-block;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 54px;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #fdcb9e;
+  text-transform: uppercase;
+  background-color: #ff8b23;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+  /* line 57, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+  .button {
+    font-size: 13px;
+    padding: 9px 24px;
+  }
+}
+
+/* line 76, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button:hover {
+  color: #fff;
+}
+
+/* line 81, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button-link {
+  letter-spacing: 0;
+  color: #3b1d82;
+  border: 0;
+  padding: 0;
+}
+
+/* line 87, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button-link:hover {
+  background: transparent;
+  color: #3b1d82;
+}
+
+/* line 93, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button-header {
+  color: #fff;
+  border-color: #fdcb9e;
+}
+
+/* line 97, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button-header:hover {
+  background: #b8024c;
+  color: #fff;
+}
+
+/* line 103, E:/166 Basketball/Basketball_Template/sass/_button.scss */
+.button-contactForm {
+  color: #fff;
+  border-color: #fdcb9e;
+  padding: 12px 25px;
+}
+
+/* End Main Button Area css
+============================================================================================ */
+/* Start Blog Area css
+============================================================================================ */
+/* line 6, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.latest-blog-area .area-heading {
+  margin-bottom: 70px;
+}
+
+/* line 11, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+/* line 14, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog:hover {
+  box-shadow: 0px 10px 20px 0px rgba(42, 34, 123, 0.1);
+}
+
+/* line 17, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .thumb {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 20, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .thumb:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 33, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog h4 {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 34px;
+  margin-bottom: 25px;
+}
+
+/* line 39, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* line 47, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .date {
+  color: #666666;
+  text-align: left;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* line 54, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .tag {
+  text-align: left;
+  display: inline-block;
+  float: left;
+  font-size: 13px;
+  font-weight: 300;
+  margin-right: 22px;
+  position: relative;
+}
+
+/* line 63, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .tag:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background: #acacac;
+  right: -12px;
+  top: 7px;
+}
+
+@media (max-width: 1199px) {
+  /* line 54, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-blog .tag {
+    margin-right: 8px;
+  }
+  /* line 75, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-blog .tag:after {
+    display: none;
+  }
+}
+
+/* line 80, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .likes {
+  margin-right: 16px;
+}
+
+@media (max-width: 800px) {
+  /* line 11, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-blog {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 86, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .single-blog-content {
+  padding: 30px;
+}
+
+/* line 89, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .single-blog-content .meta-bottom p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* line 93, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog .single-blog-content .meta-bottom i {
+  color: #fdcb9e;
+  font-size: 13px;
+  margin-right: 7px;
+}
+
+@media (max-width: 1199px) {
+  /* line 86, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-blog .single-blog-content {
+    padding: 15px;
+  }
+}
+
+/* line 105, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-blog:hover .thumb:after {
+  opacity: .7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 1199px) {
+  /* line 112, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-blog h4 {
+    transition: all 300ms linear 0s;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 14px;
+    margin-bottom: 12px;
+  }
+  /* line 117, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-blog h4 a {
+    font-size: 18px;
+  }
+}
+
+/* line 125, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.full_image.single-blog {
+  position: relative;
+}
+
+/* line 127, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.full_image.single-blog .single-blog-content {
+  position: absolute;
+  left: 35px;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+  /* line 127, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .full_image.single-blog .single-blog-content {
+    bottom: 100px;
+  }
+}
+
+/* line 144, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.full_image.single-blog h4 {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+/* line 149, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.full_image.single-blog a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* line 157, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.full_image.single-blog .date {
+  color: #fff;
+}
+
+/* line 161, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.full_image.single-blog:hover .single-blog-content {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* End Blog Area css
+============================================================================================ */
+/* Latest Blog Area css
+============================================================================================ */
+/* line 187, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.l_blog_item .l_blog_text .date {
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
+
+/* line 190, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.l_blog_item .l_blog_text .date a {
+  font-size: 12px;
+}
+
+/* line 195, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.l_blog_item .l_blog_text h4 {
+  font-size: 18px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 206, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.l_blog_item .l_blog_text p {
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+/* End Latest Blog Area css
+============================================================================================ */
+/* Causes Area css
+============================================================================================ */
+/* line 221, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_slider .owl-dots {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* line 224, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_slider .owl-dots .owl-dot {
+  height: 14px;
+  width: 14px;
+  background: #eeeeee;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+/* line 230, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_slider .owl-dots .owl-dot:last-child {
+  margin-right: 0px;
+}
+
+/* line 239, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item {
+  background: #fff;
+}
+
+/* line 241, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_img {
+  position: relative;
+}
+
+/* line 243, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_img .c_parcent {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 250, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_img .c_parcent span {
+  width: 70%;
+  height: 3px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+/* line 257, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_img .c_parcent span:before {
+  content: "75%";
+  position: absolute;
+  right: -10px;
+  bottom: 0px;
+  color: #fff;
+  padding: 0px 5px;
+}
+
+/* line 269, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_text {
+  padding: 30px 35px 40px 30px;
+}
+
+/* line 271, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* line 282, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_text p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+/* line 291, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_bottom a {
+  width: 50%;
+  border: 1px solid;
+  text-align: center;
+  float: left;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* line 302, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.causes_item .causes_bottom a + a {
+  border-color: #eeeeee;
+  background: #fff;
+  font-size: 14px;
+}
+
+/* End Causes Area css
+============================================================================================ */
+/*================= latest_blog_area css =============*/
+/* line 317, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.latest_blog_area {
+  background: #f9f9ff;
+}
+
+/* line 320, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post {
+  margin-bottom: 30px;
+}
+
+/* line 322, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post .thumb {
+  overflow: hidden;
+}
+
+/* line 324, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post .thumb img {
+  transition: all 0.7s linear;
+}
+
+/* line 328, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post .details {
+  padding-top: 30px;
+}
+
+/* line 330, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post .details .sec_h4 {
+  line-height: 24px;
+  padding: 10px 0px 13px;
+  transition: all 0.3s linear;
+}
+
+/* line 339, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post .date {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* line 345, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-recent-blog-post:hover img {
+  transform: scale(1.23) rotate(10deg);
+}
+
+/* line 351, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.tags .tag_btn {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  padding: 1px 18px;
+  text-align: center;
+}
+
+/* line 363, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.tags .tag_btn + .tag_btn {
+  margin-left: 2px;
+}
+
+/*========= blog_categorie_area css ===========*/
+/* line 370, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_categorie_area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+  /* line 370, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_categorie_area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1100px) {
+  /* line 370, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_categorie_area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+/* line 385, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 389, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post img {
+  max-width: 100%;
+}
+
+/* line 392, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post .categories_details {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(34, 34, 34, 0.75);
+  color: #fff;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 404, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post .categories_details h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+}
+
+/* line 421, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post .categories_details p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+
+/* line 427, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post .categories_details .border_line {
+  margin: 10px 0px;
+  background: #fff;
+  width: 100%;
+  height: 1px;
+}
+
+/* line 435, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.categories_post:hover .categories_details {
+  background: rgba(222, 99, 32, 0.85);
+}
+
+/*============ blog_left_sidebar css ==============*/
+/* line 450, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_item {
+  margin-bottom: 50px;
+}
+
+/* line 453, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_details {
+  padding: 30px 0 20px 10px;
+  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+@media (min-width: 768px) {
+  /* line 453, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_details {
+    padding: 60px 30px 35px 35px;
+  }
+}
+
+/* line 461, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_details p {
+  margin-bottom: 30px;
+}
+
+/* line 464, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_details a {
+  color: #ff8b23;
+}
+
+/* line 466, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_details a:hover {
+  color: #ff8b23;
+}
+
+/* line 470, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_details h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  /* line 470, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 483, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-info-link li {
+  float: left;
+  font-size: 14px;
+}
+
+/* line 487, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-info-link li a {
+  color: #999999;
+}
+
+/* line 491, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-info-link li i, .blog-info-link li span {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+/* line 496, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-info-link li::after {
+  content: "|";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 502, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-info-link li:last-child::after {
+  display: none;
+}
+
+/* line 507, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-info-link::after {
+  content: "";
+  display: block;
+  clear: both;
+  display: table;
+}
+
+/* line 514, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_item_img {
+  position: relative;
+}
+
+/* line 517, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_item_img .blog_item_date {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  display: block;
+  color: #fff;
+  background: #8a8a8a;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 517, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_item_img .blog_item_date {
+    bottom: -20px;
+    left: 40px;
+    padding: 13px 30px;
+  }
+}
+
+/* line 533, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_item_img .blog_item_date h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  /* line 533, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_item_img .blog_item_date h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 545, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_item_img .blog_item_date p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* line 545, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .blog_item_img .blog_item_date p {
+    font-size: 18px;
+  }
+}
+
+/* line 563, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .widget_title {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* line 568, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .widget_title::after {
+  content: "";
+  display: block;
+  padding-top: 15px;
+  border-bottom: 1px solid #f0e9ff;
+}
+
+/* line 576, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .single_sidebar_widget {
+  background: #fbf9ff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 585, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .search_widget .form-control {
+  height: 50px;
+  border-color: #f0e9ff;
+  font-size: 13px;
+  color: #999999;
+  padding-left: 20px;
+  border-radius: 0;
+  border-right: 0;
+}
+
+/* line 594, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .search_widget .form-control::placeholder {
+  color: #999999;
+}
+
+/* line 598, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .search_widget .form-control:focus {
+  border-color: #f0e9ff;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 607, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .search_widget .input-group button {
+  background: #fff;
+  border-left: 0;
+  border: 1px solid #f0e9ff;
+  padding: 4px 15px;
+  border-left: 0;
+}
+
+/* line 614, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .search_widget .input-group button i, .blog_right_sidebar .search_widget .input-group button span {
+  font-size: 14px;
+  color: #999999;
+}
+
+/* line 625, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .newsletter_widget .form-control {
+  height: 50px;
+  border-color: #f0e9ff;
+  font-size: 13px;
+  color: #999999;
+  padding-left: 20px;
+  border-radius: 0;
+}
+
+/* line 634, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .newsletter_widget .form-control::placeholder {
+  color: #999999;
+}
+
+/* line 638, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .newsletter_widget .form-control:focus {
+  border-color: #f0e9ff;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 647, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .newsletter_widget .input-group button {
+  background: #fff;
+  border-left: 0;
+  border: 1px solid #f0e9ff;
+  padding: 4px 15px;
+  border-left: 0;
+}
+
+/* line 654, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .newsletter_widget .input-group button i, .blog_right_sidebar .newsletter_widget .input-group button span {
+  font-size: 14px;
+  color: #999999;
+}
+
+/* line 666, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .post_category_widget .cat-list li {
+  border-bottom: 1px solid #f0e9ff;
+  transition: all 0.3s ease 0s;
+  padding-bottom: 12px;
+}
+
+/* line 671, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .post_category_widget .cat-list li:last-child {
+  border-bottom: 0;
+}
+
+/* line 675, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .post_category_widget .cat-list li a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #888888;
+}
+
+/* line 679, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .post_category_widget .cat-list li a p {
+  margin-bottom: 0px;
+}
+
+/* line 683, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .post_category_widget .cat-list li + li {
+  padding-top: 15px;
+}
+
+/* line 698, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .popular_post_widget .post_item .media-body {
+  justify-content: center;
+  align-self: center;
+  padding-left: 20px;
+}
+
+/* line 702, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 6px;
+  transition: all 0.3s linear;
+}
+
+/* line 711, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
+  color: #ff8b23;
+}
+
+/* line 716, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .popular_post_widget .post_item .media-body p {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 0px;
+}
+
+/* line 722, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .popular_post_widget .post_item + .post_item {
+  margin-top: 20px;
+}
+
+/* line 730, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .tag_cloud_widget ul li {
+  display: inline-block;
+}
+
+/* line 732, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .tag_cloud_widget ul li a {
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  background: #fff;
+  padding: 4px 20px;
+  margin-bottom: 8px;
+  margin-right: 3px;
+  transition: all 0.3s ease 0s;
+  color: #888888;
+  font-size: 13px;
+}
+
+/* line 742, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .tag_cloud_widget ul li a:hover {
+  background: #ff8b23;
+  color: #fff;
+}
+
+/* line 753, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .instagram_feeds .instagram_row {
+  display: flex;
+  margin-right: -6px;
+  margin-left: -6px;
+}
+
+/* line 759, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .instagram_feeds .instagram_row li {
+  width: 33.33%;
+  float: left;
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-bottom: 15px;
+}
+
+/* line 859, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog_right_sidebar .br {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin: 30px 0px;
+}
+
+/* line 880, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-pagination {
+  margin-top: 80px;
+}
+
+/* line 884, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-pagination .page-link {
+  font-size: 14px;
+  position: relative;
+  display: block;
+  padding: 0;
+  text-align: center;
+  margin-left: -1px;
+  line-height: 45px;
+  width: 45px;
+  height: 45px;
+  border-radius: 0 !important;
+  color: #8a8a8a;
+  border: 1px solid #f0e9ff;
+  margin-right: 10px;
+}
+
+/* line 901, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-pagination .page-link i, .blog-pagination .page-link span {
+  font-size: 13px;
+}
+
+/* line 912, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-pagination .page-item.active .page-link {
+  background-color: #fbf9ff;
+  border-color: #f0e9ff;
+  color: #888888;
+}
+
+/* line 919, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.blog-pagination .page-item:last-child .page-link {
+  margin-right: 0;
+}
+
+/*============ Start Blog Single Styles  =============*/
+/* line 944, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog_details {
+  box-shadow: none;
+  padding: 0;
+}
+
+/* line 949, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .social-links {
+  padding-top: 10px;
+}
+
+/* line 951, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .social-links li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* line 954, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .social-links li a {
+  color: #cccccc;
+  padding: 7px;
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+
+/* line 965, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog_details {
+  padding-top: 26px;
+}
+
+/* line 967, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog_details p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* line 975, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .quote-wrapper {
+  background: rgba(130, 139, 178, 0.1);
+  padding: 15px;
+  line-height: 1.733;
+  color: #888888;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  /* line 975, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-post-area .quote-wrapper {
+    padding: 30px;
+  }
+}
+
+/* line 988, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .quotes {
+  background: #fff;
+  padding: 15px 15px 15px 20px;
+  border-left: 2px solid;
+}
+
+@media (min-width: 768px) {
+  /* line 988, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-post-area .quotes {
+    padding: 25px 25px 25px 30px;
+  }
+}
+
+/* line 997, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .arrow {
+  position: absolute;
+}
+
+/* line 999, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .arrow .lnr {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* line 1005, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .thumb .overlay-bg {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 1009, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top {
+  padding-top: 15px;
+  border-top: 1px solid #f0e9ff;
+}
+
+/* line 1013, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top p {
+  margin-bottom: 0;
+}
+
+/* line 1017, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .like-info {
+  font-size: 14px;
+}
+
+/* line 1020, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .like-info i, .single-post-area .navigation-top .like-info span {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* line 1026, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .comment-count {
+  font-size: 14px;
+}
+
+/* line 1029, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .comment-count i, .single-post-area .navigation-top .comment-count span {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* line 1037, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* line 1041, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .social-icons li:last-child {
+  margin: 0;
+}
+
+/* line 1045, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-top .social-icons li i, .single-post-area .navigation-top .social-icons li span {
+  font-size: 14px;
+  color: #999999;
+}
+
+/* line 1061, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog-author {
+  padding: 40px 30px;
+  background: #fbf9ff;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  /* line 1061, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-post-area .blog-author {
+    padding: 20px 8px;
+  }
+}
+
+/* line 1070, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog-author img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+@media (max-width: 600px) {
+  /* line 1070, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-post-area .blog-author img {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* line 1083, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog-author a {
+  display: inline-block;
+}
+
+/* line 1086, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog-author a:hover {
+  color: #ff8b23;
+}
+
+/* line 1091, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog-author p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+/* line 1096, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .blog-author h4 {
+  font-size: 16px;
+}
+
+/* line 1103, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  margin-top: 55px;
+}
+
+/* line 1107, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area p {
+  margin-bottom: 0px;
+}
+
+/* line 1110, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area h4 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* line 1115, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-left {
+  text-align: left;
+}
+
+/* line 1117, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-left .thumb {
+  margin-right: 20px;
+  background: #000;
+}
+
+/* line 1120, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-left .thumb img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 1124, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-left .lnr {
+  margin-left: 20px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 1130, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-left:hover .lnr {
+  opacity: 1;
+}
+
+/* line 1134, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-left:hover .thumb img {
+  opacity: .5;
+}
+
+@media (max-width: 767px) {
+  /* line 1115, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-post-area .navigation-area .nav-left {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 1143, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-right {
+  text-align: right;
+}
+
+/* line 1145, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-right .thumb {
+  margin-left: 20px;
+  background: #000;
+}
+
+/* line 1148, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-right .thumb img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 1152, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-right .lnr {
+  margin-right: 20px;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 1158, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-right:hover .lnr {
+  opacity: 1;
+}
+
+/* line 1162, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.single-post-area .navigation-area .nav-right:hover .thumb img {
+  opacity: .5;
+}
+
+@media (max-width: 991px) {
+  /* line 1170, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .single-post-area .sidebar-widgets {
+    padding-bottom: 0px;
+  }
+}
+
+/* line 1177, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area {
+  background: transparent;
+  border-top: 1px solid #eee;
+  padding: 45px 0;
+  margin-top: 50px;
+}
+
+@media (max-width: 414px) {
+  /* line 1177, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .comments-area {
+    padding: 50px 8px;
+  }
+}
+
+/* line 1186, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area h4 {
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+/* line 1192, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area h5 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+/* line 1199, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .comment-list {
+  padding-bottom: 48px;
+}
+
+/* line 1201, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .comment-list:last-child {
+  padding-bottom: 0px;
+}
+
+/* line 1204, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .comment-list.left-padding {
+  padding-left: 25px;
+}
+
+@media (max-width: 413px) {
+  /* line 1209, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .comments-area .comment-list .single-comment h5 {
+    font-size: 12px;
+  }
+  /* line 1212, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .comments-area .comment-list .single-comment .date {
+    font-size: 11px;
+  }
+  /* line 1215, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .comments-area .comment-list .single-comment .comment {
+    font-size: 10px;
+  }
+}
+
+/* line 1221, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .thumb {
+  margin-right: 20px;
+}
+
+/* line 1224, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .thumb img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+/* line 1229, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .date {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+/* line 1235, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .comment {
+  margin-bottom: 10px;
+  color: #777777;
+  font-size: 15px;
+}
+
+/* line 1240, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comments-area .btn-reply {
+  background-color: transparent;
+  color: #888888;
+  padding: 5px 18px;
+  font-size: 14px;
+  display: block;
+  font-weight: 400;
+}
+
+/* line 1257, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form {
+  border-top: 1px solid #eee;
+  padding-top: 45px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* line 1265, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .form-group {
+  margin-bottom: 30px;
+}
+
+/* line 1269, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form h4 {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 1276, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .name {
+  padding-left: 0px;
+}
+
+@media (max-width: 767px) {
+  /* line 1276, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .comment-form .name {
+    padding-right: 0px;
+    margin-bottom: 1rem;
+  }
+}
+
+/* line 1283, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .email {
+  padding-right: 0px;
+}
+
+@media (max-width: 991px) {
+  /* line 1283, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+  .comment-form .email {
+    padding-left: 0px;
+  }
+}
+
+/* line 1289, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .form-control {
+  border: 1px solid #f0e9ff;
+  border-radius: 5px;
+  height: 48px;
+  padding-left: 18px;
+  font-size: 13px;
+  background: transparent;
+}
+
+/* line 1297, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 1302, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .form-control::placeholder {
+  font-weight: 300;
+  color: #999999;
+}
+
+/* line 1307, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form .form-control::placeholder {
+  color: #777777;
+}
+
+/* line 1311, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form textarea {
+  padding-top: 18px;
+  border-radius: 12px;
+  height: 100% !important;
+}
+
+/* line 1316, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 13px;
+  color: #777;
+}
+
+/* line 1321, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 13px;
+  color: #777;
+}
+
+/* line 1326, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form :-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 13px;
+  color: #777;
+}
+
+/* line 1331, E:/166 Basketball/Basketball_Template/sass/_blog.scss */
+.comment-form :-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 13px;
+  color: #777;
+}
+
+/*============ End Blog Single Styles  =============*/
+/* line 4, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .desc a {
+  font-size: 16px;
+  color: #232b2b !important;
+}
+
+/* line 10, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content {
+  padding: 38px 38px 23px;
+  border: 0px solid #fdcb9e;
+  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+/* line 14, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content p {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* line 18, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content p a {
+  color: #ff8b23;
+}
+
+/* line 22, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.481;
+  margin-bottom: 16px;
+}
+
+/* line 28, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content h5 {
+  font-size: 15px;
+  color: #8a8a8a;
+  font-weight: 400;
+}
+
+/* line 33, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content .list-unstyled {
+  margin-top: 33px;
+}
+
+/* line 35, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content .list-unstyled li {
+  display: inline;
+  margin-right: 17px;
+  color: #999999;
+}
+
+/* line 39, E:/166 Basketball/Basketball_Template/sass/_single_blog.scss */
+.single_blog_post .single_blog .single_appartment_content .list-unstyled li a {
+  margin-right: 8px;
+  color: #999999;
+}
+
+/**************menu part start*****************/
+/* line 2, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header {
+  padding: 20px 0px;
+}
+
+@media (max-width: 576px) {
+  /* line 5, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .sub_header #logo {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 10, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .sub_header #logo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 20, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .sub_header .sub_header_social_icon {
+    float: none !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 20, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .sub_header .sub_header_social_icon {
+    float: none !important;
+    text-align: center;
+  }
+}
+
+/* line 35, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header .sub_header_social_icon a {
+  font-size: 14px;
+  color: #555555;
+  margin-left: 60px;
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  /* line 35, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .sub_header .sub_header_social_icon a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    text-align: left !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 35, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .sub_header .sub_header_social_icon a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: left !important;
+  }
+}
+
+/* line 58, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header .sub_header_social_icon a i {
+  margin-right: 12px;
+  color: #ff8b23;
+}
+
+/* line 63, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header .sub_header_social_icon .register_icon {
+  border: 1px solid #e5e9ed;
+  padding: 9px 26px 9px 60px;
+  border-radius: 50px;
+  position: relative;
+}
+
+/* line 68, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header .sub_header_social_icon .register_icon i {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #e5e9ed;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/* line 81, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header .sub_header_social_icon .register_icon:hover {
+  padding: 9px 60px 9px 26px;
+  background-color: #ff8b23;
+  color: #fff;
+}
+
+/* line 85, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.sub_header .sub_header_social_icon .register_icon:hover i {
+  left: auto;
+  right: -14px;
+  top: -1px;
+  color: #fff;
+}
+
+/* line 95, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu {
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 96, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu .navbar {
+  padding: 20px 0px;
+}
+
+/* line 101, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu ul li {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-right: 22px;
+}
+
+/* line 106, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu ul li :hover {
+  color: #ff8b23 !important;
+}
+
+/* line 112, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu .header_social_icon ul li {
+  padding-right: 13px;
+}
+
+/* line 114, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu .header_social_icon ul li a {
+  color: #c3c6c9;
+}
+
+/* line 116, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu .header_social_icon ul li a:hover {
+  color: #ff8b23;
+}
+
+@media (max-width: 576px) {
+  /* line 123, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .main_menu {
+    position: relative;
+    z-index: 99;
+  }
+  /* line 127, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-light .navbar-toggler {
+    border: 0px solid transparent;
+  }
+  /* line 130, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .header_social_icon {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  /* line 135, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 78px;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+  }
+  /* line 143, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .nav-item {
+    padding: 5px 10px 5px 15px;
+    background-color: #ff8b23;
+  }
+  /* line 147, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-nav .nav-link:hover {
+    color: #fff !important;
+  }
+  /* line 151, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+  }
+  /* line 156, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 164, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .main_menu {
+    position: relative;
+  }
+  /* line 167, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-light .navbar-toggler {
+    border: 0px solid transparent;
+  }
+  /* line 170, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .header_social_icon {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  /* line 175, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 78px;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+  }
+  /* line 183, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .nav-item {
+    padding: 5px 10px 5px 15px;
+    background-color: #ff8b23;
+  }
+  /* line 187, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-nav .nav-link:hover {
+    color: #fff !important;
+  }
+  /* line 191, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+  }
+  /* line 196, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 204, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .main_menu {
+    position: relative;
+  }
+  /* line 207, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-light .navbar-toggler {
+    border: 0px solid transparent;
+  }
+  /* line 210, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .header_social_icon {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+  }
+  /* line 215, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 78px;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+  }
+  /* line 223, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .nav-item {
+    padding: 5px 10px 5px 15px;
+    background-color: #ff8b23;
+  }
+  /* line 227, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .navbar-nav .nav-link:hover {
+    color: #fff !important;
+  }
+  /* line 231, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+  }
+  /* line 236, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 245, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+  }
+  /* line 250, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  .main_menu .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+}
+
+/* line 257, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.main_menu .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 620;
+
+}
+
+@media(max-width:520px) {
+.sub_header_social_icon{display:none;}
+  }
+/* line 264, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.menu_fixed {
+  position: fixed;
+  z-index: 9999 !important;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+  top: 0;
+}
+
+/* line 271, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.menu_fixed span {
+  color: #000 !important;
+}
+
+/* line 275, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.dropdown-menu {
+  border: 0px solid rgba(0, 0, 0, 0.15) !important;
+  background-color: #fafafa;
+}
+
+/* line 281, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.dropdown .dropdown-menu {
+  transition: all 0.5s;
+  overflow: hidden;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block;
+  margin-top: 18px;
+}
+
+/* line 288, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.dropdown .dropdown-menu .dropdown-item {
+  font-size: 14px;
+  padding: 8px 20px;
+}
+
+/* line 295, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+}
+
+/**************** banner part css start ****************/
+/* line 2, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: url("../img/banner_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  /* line 2, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part {
+    height: 600px;
+    background-image: none;
+    background-color: #f0eed4;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 2, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part {
+    height: 650px;
+    background-image: none;
+    background-color: #f0eed4;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 2, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part {
+    height: 700px;
+    background-image: none;
+    background-color: #f0eed4;
+  }
+}
+
+/* line 23, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 99;
+  margin-top: 60px;
+}
+
+@media (max-width: 576px) {
+  /* line 23, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 23, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 23, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+/* line 42, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text .banner_text_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 46, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  color: #666666;
+}
+
+/* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text h1 {
+  font-size: 80px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+  /* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .banner_text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+}
+
+/* line 81, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text h1 span {
+  color: #ff8b23;
+}
+
+/* line 86, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text p {
+  font-size: 16px;
+  line-height: 1.929;
+  font-family: 'Titillium Web', sans-serif;
+  color: #666666;
+  font-weight: 300;
+}
+
+/* line 93, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text .btn_1 {
+  position: relative;
+  padding: 13px 74px 13px 24px;
+  z-index: 1;
+  overflow: hidden;
+  border: 0px solid transparent;
+}
+
+/* line 99, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text .btn_1:after {
+  position: absolute;
+  content: "";
+  right: -26px;
+  top: 8px;
+  width: 55%;
+  height: 129%;
+  background-color: #444756;
+  z-index: -1;
+  transform: rotate(121deg);
+}
+
+/* line 110, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_text .btn_1 span {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+/* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .video_popup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 130px;
+  padding-left: 90px;
+  z-index: 99 !important;
+}
+
+/* line 126, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .video_popup span {
+  width: 90px;
+  height: 90px;
+  background-color: #ff8b23;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+  color: #fff;
+  border: 5px solid #fff;
+  box-shadow: 0px 5px 25.5px 4.5px rgba(20, 48, 58, 0.2);
+}
+
+@media (max-width: 576px) {
+  /* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .video_popup {
+    top: 100px;
+    padding-top: 70px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  /* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+ h2{
+   text-align:center;
+ }
+  }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .video_popup {
+    top: 100px;
+    padding-top: 70px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .banner_part .video_popup {
+    top: 100px;
+    padding-top: 80px;
+    padding-left: 0px;
+  }
+}
+
+/* line 156, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_social_icon {
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 999;
+  left: -310px;
+  top: 40%;
+}
+
+/* line 162, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_social_icon li {
+  color: #777777;
+  font-size: 13px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* line 167, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_social_icon li span {
+  margin-right: 10px;
+}
+
+/* line 172, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_social_icon i.fas.fa-circle {
+  font-size: 7px;
+  margin: 0px 10px;
+  color: #ff8b23;
+}
+
+/* line 177, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+.banner_part .banner_social_icon a:hover {
+  color: #ff8b23 !important;
+}
+
+.holder { 
+  background-color:#fff;
+  width:400px;border-radius:2px;
+  height:240px;
+  overflow:hidden;
+  padding:10px;border:2px solid blueviolet;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: linear-gradient(to bottom right, darkblue, red); border-radius:8px;}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width:300px;
+  height:260px;
+  overflow: hidden;
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:white;
+  text-decoration:none;font-size:12px;
+}
+.slide{
+  width:auto;
+}
+@media (max-width: 576px) {
+  /* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
+  .ftco-feature-1 {
+    height:250px;}
+  }
+.ftco-feature-1 {
+  text-align: center;height:230px;
+  padding-top: 30px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  background-image: linear-gradient(to bottom right, darkblue, red); border-radius:8px;}
+  .ftco-feature-1 .icon {
+    font-size: 70px;
+    color: #f23a2e; }
+  .ftco-feature-1 .ftco-feature-1-text {
+    padding: 30px; }
+  .ftco-feature-1 h2 {
+    font-size: 20px;
+    font-weight: bold;color:white; }
+  .ftco-feature-1 p {
+    color: white; }
+  .ftco-feature-1:hover, .ftco-feature-1.active {
+    -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1); }
+
+.block-14 .owl-nav {
+  display: none; }
+
+.block-14 .owl-stage {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.block-14 .owl-dots {
+  text-align: center; }
+  .block-14 .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 5px; }
+    .block-14 .owl-dots .owl-dot > span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #ccc;
+      border-radius: 50%; }
+    .block-14 .owl-dots .owl-dot.active > span {
+      background: #f23a2e; }
+      @media (max-width: 576px) {
+        /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+        .ftco-feature-1 {
+         border:none;
+        }
+      }
+
+
+
+      div.ex1 {
+        background-color: lightblue;
+        width: 100%;
+        height: 600px;
+        overflow: scroll;
+      }
+
+
+#subscribe
+ {
+        background-color: #f5e5e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        border-bottom: 0px solid black;
+      }
+      
+    
+
+      
+      /* === Container Styles === */
+      .containe {
+        width: 280px;
+        margin: 40px;
+        padding: 40px;
+        background-color: #5253a4;
+        background-image: linear-gradient(to bottom right, darkblue, red);;
+        border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        text-align: center;
+      }
+      
+      .containe hr {
+        width: 50px;
+        height: 3px;
+        border: 0px;
+        background-color: #f5e5e5;
+      }
+      
+      .containe form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .container input {
+        margin: 8px;
+        width: 180px;
+      }
+      
+      .container input[type=field] {
+        border: 0px;
+        border-bottom: 3px solid #f5e5e5;
+        background-color: transparent;
+        font-size: 16px;
+        color: #f5e5e5;
+        padding: 5px;
+        transition: 0.5s;
+      }
+      
+      .container input[type=field]:hover {
+        width: 200px;
+      }
+      
+      .container input[type=submit] {
+        border: 3px solid #f5e5e5;
+        border-radius: 20px;
+        background-color: transparent;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #f5e5e5;
+     
+        transition: 0.5s;
+      }
+      
+      .container input[type=submit]:hover {
+        cursor: pointer;
+        background-color: #f5e5e5;
+        color: #daa2a2;border:none;
+      }
+      
+      input::placeholder {
+        color: #f5e5e5;
+      }
+      
+      .far {
+        border: 3px solid #f5e5e5;
+        color: #f5e5e5;
+        border-radius: 50%;
+        padding: 14px;
+        font-size: 40px;
+      }
+      
+
+
+      .btn {
+        cursor: pointer;
+        background-color: #000;
+        width: 330px;
+        height: 64px;
+        line-height: 64px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.34);
+      }
+      .btn span {
+        color: #fff;
+        display: block;
+        padding-left: 35px;
+        text-transform: uppercase;
+        font: bold 18px/66px Arial;
+        transform: scaleX(0.6);
+        letter-spacing: 3px;
+        transform-origin: center left;
+        transition: color 0.3s ease;
+        position: relative;
+        z-index: 1;
+      }
+      .btn em {
+        position: absolute;
+        height: 1px;
+        background: #fff;
+        width: 47%;
+        right: 23px;
+        top: 50%;
+        transform: scaleX(0.25);
+        transform-origin: center right;
+        transition: all 0.3s ease;
+        z-index: 1;
+      }
+      .btn:before,
+      .btn:after {
+        content: '';
+        background: #fff;
+        height: 50%;
+        width: 0;
+        position: absolute;
+        transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      }
+      .btn:before {
+        top: 0;
+        left: 0;
+        right: auto;
+      }
+      .btn:after {
+        bottom: 0;
+        right: 0;
+        left: auto;
+      }
+      .btn:hover:before {
+        width: 100%;
+        right: 0;
+        left: auto;
+      }
+      .btn:hover:after {
+        width: 100%;
+        left: 0;
+        right: auto;
+      }
+      .btn:hover span {
+        color: #000;
+      }
+      .btn:hover em {
+        background: #000;
+        transform: scaleX(1);
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* psuedo element animations */
+@-webkit-keyframes downloadBounce {
+  to {
+    -webkit-transform: translateY(0px) rotate(50deg);
+  }
+}
+@-moz-keyframes downloadBounce {
+  to {
+    -moz-transform: translateY(0px) rotate(50deg);
+  }
+}
+@keyframes downloadBounce {
+  to {
+    -webkit-transform: translateY(0px) rotate(50deg);
+    -moz-transform: translateY(0px) rotate(50deg);
+    -ms-transform: translateY(0px) rotate(50deg);
+    -o-transform: translateY(0px) rotate(50deg);
+    transform: translateY(0px) rotate(50deg);
+  }
+}
+@-webkit-keyframes downloadBounce2 {
+  to {
+    -webkit-transform: translateY(0px) rotate(-50deg);
+  }
+}
+@-moz-keyframes downloadBounce2 {
+  to {
+    -moz-transform: translateY(0px) rotate(-50deg);
+  }
+}
+@keyframes downloadBounce2 {
+  to {
+    -webkit-transform: translateY(0px) rotate(-50deg);
+    -moz-transform: translateY(0px) rotate(-50deg);
+    -ms-transform: translateY(0px) rotate(-50deg);
+    -o-transform: translateY(0px) rotate(-50deg);
+    transform: translateY(0px) rotate(-50deg);
+  }
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.download {
+  /* rounded corner overflow mask fix */
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom right, darkblue, red);
+  background-image: linear-gradient(to bottom right, darkblue, red);
+  color: white;
+  padding: 26px 0 26px 28px;
+  width: 220px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+  margin-right: 20px;
+}
+.download span {
+  display: block;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.download span:after, .download span:before {
+  content: "";
+  width: 1px;
+  height: 16px;
+  background: #007ccd;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transition: all 10ms ease-out;
+  -moz-transition: all 10ms ease-out;
+  transition: all 10ms ease-out;
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: translateY(0) rotate(0deg);
+  -moz-transform: translateY(0) rotate(0deg);
+  -ms-transform: translateY(0) rotate(0deg);
+  -o-transform: translateY(0) rotate(0deg);
+  transform: translateY(0) rotate(0deg);
+  -webkit-animation: 0;
+  -moz-animation: 0;
+  animation: 0;
+}
+.download svg {
+  z-index: 0;
+  fill: white;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -moz-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -ms-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -o-transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.04857);
+  -webkit-transition: all 350ms ease-out;
+  -moz-transition: all 350ms ease-out;
+  transition: all 350ms ease-out;
+  height: 700px;
+}
+.download svg#linux {
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -moz-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -ms-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  -o-transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.05857);
+}
+.download:hover {
+  padding: 26px 0;
+  color: #007ccd;
+}
+.download:hover svg {
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -moz-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -ms-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  -o-transform: translate(-50%, -50%) rotate(60deg) scale(1);
+  transform: translate(-50%, -50%) rotate(60deg) scale(1);
+}
+.download:hover svg#windows {
+  -webkit-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -moz-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -ms-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  -o-transform: translate(-50%, -10%) rotate(60deg) scale(1);
+  transform: translate(-50%, -10%) rotate(60deg) scale(1);
+}
+.download:hover svg#linux {
+  -webkit-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -moz-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -ms-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  -o-transform: translate(-120%, -125%) rotate(60deg) scale(6);
+  transform: translate(-120%, -125%) rotate(60deg) scale(6);
+}
+.download:hover span {
+  -webkit-transform: translate(0, -10px) scale(1.1);
+  -moz-transform: translate(0, -10px) scale(1.1);
+  -ms-transform: translate(0, -10px) scale(1.1);
+  -o-transform: translate(0, -10px) scale(1.1);
+  transform: translate(0, -10px) scale(1.1);
+  -webkit-transition: -webkit-transform 400ms ease-out 400ms;
+  -moz-transition: -moz-transform 400ms ease-out 400ms;
+  transition: transform 400ms ease-out 400ms;
+}
+.download:hover span:after, .download:hover span:before {
+  opacity: 1;
+  -webkit-transition: all 400ms ease-out 400ms, -webkit-transform 300ms ease-in 100ms;
+  -moz-transition: all 400ms ease-out 400ms, -moz-transform 300ms ease-in 100ms;
+  transition: all 400ms ease-out 400ms, transform 300ms ease-in 100ms;
+}
+.download:hover span:after {
+  -webkit-transform: translateY(7px) rotate(50deg);
+  -moz-transform: translateY(7px) rotate(50deg);
+  -ms-transform: translateY(7px) rotate(50deg);
+  -o-transform: translateY(7px) rotate(50deg);
+  transform: translateY(7px) rotate(50deg);
+  -webkit-animation: downloadBounce 800ms linear alternate infinite;
+  -moz-animation: downloadBounce 800ms linear alternate infinite;
+  animation: downloadBounce 800ms linear alternate infinite;
+}
+.download:hover span:before {
+  -webkit-transform: translateY(7px) rotate(-50deg);
+  -moz-transform: translateY(7px) rotate(-50deg);
+  -ms-transform: translateY(7px) rotate(-50deg);
+  -o-transform: translateY(7px) rotate(-50deg);
+  transform: translateY(7px) rotate(-50deg);
+  -webkit-animation: downloadBounce2 800ms linear alternate infinite;
+  -moz-animation: downloadBounce2 800ms linear alternate infinite;
+  animation: downloadBounce2 800ms linear alternate infinite;
+}
+div.menu{
+  
+  margin: 5% 10%;
+  background: transparent;
+}
+
+
+.g a:nth-child(1){
+ background:#E63946; 
+  color: #eee;
+}
+.g a:nth-child(2){
+   background:#F1FAEE; 
+  color: #222;
+}
+.g a:nth-child(3){
+  background: #A8DADC; 
+   color: #222;
+ 
+}
+.g a:nth-child(4){
+  background: #457B9D;
+  color: #eee;
+}
+.g a:nth-child(5){
+  background: #1D3557;  
+  color: #eee;
+}
+
+
+.cnt{
+  margin: 5% 10%;
+  background: transparent;
+}
